@@ -1,11 +1,11 @@
-/* Reset default margin and padding */
+/* default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Navbar Styles (same as before) */
+/* Navbar Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@
   text-decoration: none;
 }
 
-/* Main Content - Now with Grid */
+/* Main Content - Grid */
 .main-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
